@@ -11,7 +11,7 @@ pipeline
    stage('Deploy Application into cloud') 
    {
    steps{
-   bat 'mvn package deploy -Dmuledeploy'
+   bat 'mvn package deploy -DmuleDeploy'
    }
    }
   }
